@@ -1,0 +1,11 @@
+vpc-name            = "functionvpc"
+vpc-cidr            = "192.168.0.0/16"
+subnets-cidr        = ["192.168.0.0/20", "192.168.16.0/20", "192.168.32.0/20", "192.168.48.0/20", "192.168.64.0/20"]
+instance-type       = "t2.medium"
+ami                 = "ami-09040d770ffe2224f"
+availability-zone   = ["us-east-2a", "us-east-2b", "us-east-2c"]
+instance-name       = "public_instance"
+# private-instance    = "private_instance"
+RT-Cidr             = ["0.0.0.0/0", "0.0.0.0/0"]
+# private-subnet-cidr = ["192.168.6.0/23", "192.168.10.0/23", "192.168.14.0/23", "192.168.18.0/23", "192.168.22.0/23"]
+key-name            = "us-east-2"
